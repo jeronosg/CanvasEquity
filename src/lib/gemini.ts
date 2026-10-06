@@ -2,7 +2,7 @@ import { GoogleGenAI } from '@google/genai'
 import type { Artwork, HistoricalPoint } from '../types'
 import { today } from './format'
 
-export const GEMINI_MODEL = 'gemini-2.5-flash'
+export const GEMINI_MODEL = 'gemini-3.8-flash'
 
 function buildPrompt(a: Artwork, currency: string) {
   const details = [
